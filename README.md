@@ -15,6 +15,8 @@ Repository tugas UTS komdat 2022
 <b>Langkah instalasi dalam CLI</b>
 <ol>
 <li>
+Langkahnya adalah
+
   ```
   sudo apt update
   sudo apt install -y docker.io
