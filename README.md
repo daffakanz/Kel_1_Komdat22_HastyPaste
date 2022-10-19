@@ -15,6 +15,53 @@ Repository tugas UTS komdat 2022
 <b>Langkah instalasi dalam CLI</b>
 <ol>
 <li>
+  ```
+  sudo apt update
+  sudo apt install -y docker.io
+  sudo systemctl enable docker --now
+  ```
+  
+  ```
+  docker ps
+  nano ~20.04.4
+  nano /usr/sbin/policy-rc.d
+  sudo apt-get install ca-certificates curl gnupg lsb-release
+  ```
+  
+  ```
+  sudo mkdir -p etc/apt/keyrings
+  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  ```
+  
+  ```
+  sudo apt update
+  sudo apt install -y docker.io
+  nano /usr/sbin/policy-rc.d
+  sudo apt-get install ca-certificates curl gnupg lsb-release
+  sudo mkdir -p /etc/apt/keyrings
+  curl fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+$(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  ```
+  
+  ```
+  sudo apt-get update
+  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+  service docker status
+  sudo apt install git
+  nano docker-compose.yml
+  ```
+  
+  ```
+  service docker status
+  touch docker-compose.yml
+  nano docker-compose.yml
+  docker-compose up -d
+  docker docker-compose up -d
+  nano docker-compose.yml
+  curl 0.0.0.0:8000
+  ```
+  
 </li>
 </ol>
 
