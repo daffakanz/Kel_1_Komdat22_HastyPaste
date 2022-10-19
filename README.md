@@ -53,7 +53,7 @@ Cek Status docker
   ```
   service docker status
   ```
-Pemasangan Hasty Paste dengan docker
+<b>Pemasangan Hasty Paste dengan docker</b>
   ```
   sudo apt install git
   ```
