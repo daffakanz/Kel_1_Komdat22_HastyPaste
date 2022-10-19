@@ -21,6 +21,11 @@ Repository tugas UTS komdat 2022
 <b>Cara Pemakaian</b>
 <ul>
 <li><p>Tampilan aplikasi web</p></li>
+<b> Tampilan pada desktop<b>
+<img src="images/tampilandesktop.png" width="300" >
+
+<b> Tampilan pada mobile<b>
+<img src="images/tammpilanmobile.jpg" width="300" >
 
 <li><p><b>Fungsi-fungsi utama</b></p></li>
 </ul>
