@@ -12,55 +12,86 @@ Repository tugas UTS komdat 2022
 <ol>
 <li>tralala</li>
 </ol>
-<b>Langkah instalasi dalam CLI</b>
+<b>Langkah instalasi dalam CLI dengan docker</b>
 <ol>
 <li>
-Langkahnya adalah
 
+Langkah-langkah yang diperlukan adalah sebagai berikut : 
+
+<b>Docker</b>
+
+Update APT
   ```
   sudo apt update
   sudo apt install -y docker.io
-  sudo systemctl enable docker --now
   ```
-  
+Buka file policy-rc.d
   ```
-  docker ps
-  nano ~20.04.4
   nano /usr/sbin/policy-rc.d
+  ```
+Lalu ubah 101 menjadi 0
+
+Kemudian install requirements lainnya
+  ```
   sudo apt-get install ca-certificates curl gnupg lsb-release
   ```
-  
+Keyrings
   ```
   sudo mkdir -p etc/apt/keyrings
-  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
-  ```
   
-  ```
-  sudo apt update
-  sudo apt install -y docker.io
-  nano /usr/sbin/policy-rc.d
-  sudo apt-get install ca-certificates curl gnupg lsb-release
-  sudo mkdir -p /etc/apt/keyrings
-  curl fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  
   echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
 $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
   ```
-  
+Plugins
   ```
   sudo apt-get update
   sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+  ```
+Cek Status docker
+  ```
   service docker status
+  ```
+Pemasangan Hasty Paste dengan docker
+  ```
   sudo apt install git
+  ```
+Buat file baru di folder tempat app ingin di install
+
+  ```
+  touch docker-compose.yml
   nano docker-compose.yml
   ```
   
+Salin teks berikut pada docker-compose.yml
   ```
-  service docker status
-  touch docker-compose.yml
-  nano docker-compose.yml
-  docker-compose up -d
-  docker docker-compose up -d
-  nano docker-compose.yml
+  version: "3"
+
+  services:
+    paste-bin:
+      container_name: paste-bin
+      image: ghcr.io/enchant97/hasty-paste:1
+      restart: unless-stopped
+      volumes:
+      - data:/app/data
+      ports:
+      - 8000:8000
+      environment:
+      - "UI_DEFAULT__USE_LONG_ID=False"
+
+  volumes:
+    data:
+  ```
+Pastikan docker sudah berjalan (status)
+
+Jalankan docker-compose
+  ```
+  docker compose up -d
+  ```
+Cek status deployment
+  ```
+  docker ps
   curl 0.0.0.0:8000
   ```
   
