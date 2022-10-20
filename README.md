@@ -1,12 +1,12 @@
 # Komdatcoba
 Repository tugas UTS komdat 2022
 
-<p style="font-size:20px"><b>Hasty Paste</b></p>
+<p style="font-size:30px"><b>Hasty Paste</b></p>
 
 <p style="font-size:14px">Sekilas Tentang "Hasty Paste"</p>
 <p>Deskripsi Judul. [Isi disini]</p>
 
-<p style="font-size:20px"><b>Instalasi</b></p>
+<p style="font-size:25px"><b>Instalasi</b></p>
 <p style="font-size:14px"><b>Prasyarat Sebelum instalasi</b></p>
 <ol>
 <li>Docker</li>
@@ -104,9 +104,6 @@ Cek status deployment
 <b>Tampilan pada desktop</b>
 <center><img src="images/tampilandesktop.png" width="500" ></center>
 
-<b>Tampilan pada mobile</b>
-<center><img src="images/tammpilanmobile.jpg" width="500" ></center>
-
 <li><p><b>Fungsi-fungsi utama</b></p></li>
 </ul>
 <li>Untuk memulai menulis note, tekan tombol "New Paste"</li>
@@ -120,22 +117,22 @@ Cek status deployment
 <li>Apabila anda ingin menduplikat dan mengedit notenya dapat menekan tombol "Clone & Edit"</li>
 
 
-<b>Pembahasan</b>
+<p style="font-size:25px"><b>Pembahasan</b></p>
 <p>kesimpulan fungsi "Judul".</p>
 
-Kelebihan Judul :
+<p style="font-size:14px">Kelebihan Judul :</p>
 <ul>
 <li>Tidak memerlukan database.</li>
 <li>Memakai jumlah resources yang kecil.</li>
 <li>Tidak memerlukan Auth dan Javascript</li>
 </ul>
 
-Kekurangan Judul :
+<p style="font-size:14px">Kekurangan Judul :</p>
 <ul>
 <li>tralala4</li>
 </ul>
 
-<b>Referensi</b>
+<p style="font-size:25px"><b>Referensi</b></p>
 <ul>
 <li>link tralala</li>
 </ul>
