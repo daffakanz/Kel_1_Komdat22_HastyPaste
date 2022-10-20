@@ -1,6 +1,8 @@
 <h1 align="center">Hasty Paste</h1></p>
 
-![](https://github.com/daffakanz/Kel_1_Komdat22_HastyPaste/blob/main/images/iconhastepaste.svg)
+<p align="center">
+<img src="images/iconhastepaste.svg" width="300">
+</p>
 
 <p></p>
 
