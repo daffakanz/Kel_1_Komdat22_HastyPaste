@@ -1,7 +1,7 @@
 # Komdatcoba
 Repository tugas UTS komdat 2022
 
-<p style="font-size:20px"><b>Hasty Paste"</b></p>
+<p style="font-size:20px"><b>Hasty Paste</b></p>
 
 <p style="font-size:14px">Sekilas Tentang "Hasty Paste"</p>
 <p>Deskripsi Judul. [Isi disini]</p>
