@@ -3,7 +3,7 @@ Repository tugas UTS komdat 2022
 
 <p style="font-size:100px"><b>Hasty Paste</b></p>
 
-<p style="font-size:14px">Sekilas Tentang "Hasty Paste"</p>
+# Sekilas Tentang "Hasty Paste
 <p>Deskripsi Judul. [Isi disini]</p>
 
 # Instalasi
@@ -97,7 +97,23 @@ Cek status deployment
 </li>
 </ol>
 
-<b>Cara Pemakaian</b>
+# Maintenance
+  Untuk melakukan penghapusan paste yang telah expired
+    ```
+    cli cleanup -y --expired
+    ```
+  Untuk melakukan penghapusan seluruh paste yang telah melebihi waktu 365 hari
+    ```
+    cli cleanup -y --older-than 365
+    ```
+
+  Atau menggabungkan penghapusan paste yang telah expired dan melebihi waktu 365 hari
+    ```
+    cli cleanup -y --expired --older-than 365
+    ```
+
+
+# Cara Pemakaian
 <ul>
 <li><p>Tampilan aplikasi web</p></li>
 <b>Tampilan pada desktop</b>
@@ -116,22 +132,27 @@ Cek status deployment
 
 
   
-<p style="font-size:25px"><b>Pembahasan</b></p>
-<p>kesimpulan fungsi "Judul"[isi disini].</p>
+# Pembahasan
+<p>kesimpulan fungsi "Judul" atau pendapat[isi disini].</p>
 
-<p style="font-size:14px">Kelebihan Hasty Paste :</p>
+<p style="font-size:14px"> - Kelebihan Hasty Paste :</p>
 <ul>
 <li>Tidak memerlukan database.</li>
 <li>Memakai jumlah resources yang kecil.</li>
 <li>Tidak memerlukan Auth dan Javascript</li>
 </ul>
 
-<p style="font-size:14px">Kekurangan Hasty Paste :</p>
+<p style="font-size:14px"> - Kekurangan Hasty Paste :</p>
 <ul>
 <li>tralala4</li>
 </ul>
+  
+<p style="font-size:14px"> - Bandingkan dengan aplikasi weblain yang sejenis :</p>
+<ul>
+<li>tralala5</li>
+</ul>
 
-<p style="font-size:25px"><b>Referensi</b></p>
+# Referensi
 <ul>
 <li>link tralala</li>
 </ul>
