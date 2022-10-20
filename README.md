@@ -1,10 +1,8 @@
 # Komdatcoba
 Repository tugas UTS komdat 2022
 
-<p style="font-size:100px"><b>Hasty Paste</b></p>
-
-# Sekilas Tentang "Hasty Paste
-<p>Deskripsi Judul. [Isi disini]</p>
+# Sekilas Tentang "Hasty Paste"
+Hasty Paste adalah sebuah WebApp yang berfungsi untuk membuat, mengedit, dan berbagi text/note dengan cepat dan cuma-cuma. Sebagian besar, tool digunakan untuk berbagi log debug atau semacamnya untuk membantu kelompok pengembang.
 
 # Instalasi
 <p style="font-size:14px"><b>Prasyarat Sebelum instalasi</b></p>
@@ -103,16 +101,18 @@ Cek status deployment
   Untuk melakukan penghapusan paste yang telah expired
     
     cli cleanup -y --expired 
-    
+ </li>
+ <li>
   Untuk melakukan penghapusan seluruh paste yang telah melebihi waktu 365 hari
-   
+  
     cli cleanup -y --older-than 365
-
+  </li>
+  <li>
   Atau menggabungkan penghapusan paste yang telah expired dan melebihi waktu 365 hari
       
     cli cleanup -y --expired --older-than 365
+  </li>
 
-</li>
 </ul>
 
 
@@ -153,9 +153,9 @@ Cek status deployment
 <ul><li> Jika lupa atau ingin mengubah setting Highlight Syntax, maka perlu menambahkan extension tersebut ke belakang URL paste </li></ul>
  
  <p> </p>
-<p style="font-size:14px"> Bandingkan dengan aplikasi weblain yang sejenis :</p>
+<p style="font-size:14px"> Bandingkan dengan aplikasi WebApps lain yang sejenis :</p>
 <ul>
-Selain itu, Aplikasi WebApps yang mirip dengan Hasty Paste ini adalah (Tolong di Bold)Pastebin. Jika dibandingkan dengan pastebin, Hasty Paste ini memiliki berberapa keunggulan dan kelemahan. Berikut adalah perbandingan antara kedua WebApps ini :
+Selain itu, Aplikasi WebApps yang mirip dengan Hasty Paste ini adalah <b>Pastebin</b>. Jika dibandingkan dengan pastebin, Hasty Paste ini memiliki berberapa keunggulan dan kelemahan. Berikut adalah perbandingan antara kedua WebApps ini :
 <ul><li> Pastebin dapat disettings siapa saja yang dapat melihatnya </li></ul>
 <ul><li> Pastebin dapat diberikan password untuk dapat mengamankan file </li></ul>
 <ul><li> File pada Pastebin dapat dirapihkan dalam bentuk folder atau kategori lainnya </li></ul>
@@ -164,5 +164,5 @@ Selain itu, Aplikasi WebApps yang mirip dengan Hasty Paste ini adalah (Tolong di
 
 # Referensi
 <ul>
-tralalala
+<li>https://enchantedcode.co.uk/hasty-paste/index.html</li>
 </ul>
