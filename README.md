@@ -102,7 +102,7 @@ Cek status deployment
 <ul>
 <li><p>Tampilan aplikasi web</p></li>
 <b>Tampilan pada desktop</b>
-<center><img src="images/tampilandesktop.png" width="500" ></center>
+  <p><center><img src="images/tampilandesktop.png" width="500" ></center></p>
 
 <li><p><b>Fungsi-fungsi utama</b></p></li>
 </ul>
