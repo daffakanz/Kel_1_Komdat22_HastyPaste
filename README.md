@@ -2,7 +2,7 @@
 Repository tugas UTS komdat 2022
 
 # Sekilas Tentang "Hasty Paste"
-Hasty Paste adalah sebuah WebApp yang berfungsi untuk membuat, mengedit, dan berbagi text/note dengan cepat dan cuma-cuma. Sebagian besar, tool digunakan untuk berbagi log debug atau semacamnya untuk membantu kelompok pengembang.
+Hasty Paste adalah sebuah WebApp yang berfungsi untuk membuat, mengedit, dan berbagi text/note dengan cepat dan cuma-cuma. Sebagian besar, Hasty Paste digunakan untuk berbagi log debug atau semacamnya untuk membantu kelompok pengembang.
 
 # Instalasi
 <p style="font-size:14px"><b>Prasyarat Sebelum instalasi</b></p>
