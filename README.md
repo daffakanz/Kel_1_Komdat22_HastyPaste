@@ -1,16 +1,16 @@
 # Komdatcoba
 Repository tugas UTS komdat 2022
 
-<p style="font-size:20px"><b>Coba "Judul"</b></p>
+<p style="font-size:20px"><b>Hasty Paste"</b></p>
 
-<p style="font-size:14px">Sekilas Tentang "Judul"</p>
-<p>Deskripsi Judul.</p>
-[Isi]
+<p style="font-size:14px">Sekilas Tentang "Hasty Paste"</p>
+<p>Deskripsi Judul. [Isi disini]</p>
 
 <p style="font-size:20px"><b>Instalasi</b></p>
 <p style="font-size:14px"><b>Prasyarat Sebelum instalasi</b></p>
 <ol>
-<li>tralala</li>
+<li>Docker</li>
+<li>Docker</li>
 </ol>
 <b>Langkah instalasi dalam CLI dengan docker</b>
 <ol>
@@ -125,7 +125,9 @@ Cek status deployment
 
 Kelebihan Judul :
 <ul>
-<li>tralala3</li>
+<li>Tidak memerlukan database.</li>
+<li>Memakai jumlah resources yang kecil.</li>
+<li>Tidak memerlukan Auth dan Javascript</li>
 </ul>
 
 Kekurangan Judul :
