@@ -172,8 +172,6 @@ Selain itu, Aplikasi WebApps yang mirip dengan Hasty Paste ini adalah <b>Pastebi
 
 # Referensi
   [`^ kembali ke atas ^`](#)
-<ul>
 1. [Install Docker on Ubuntu](https://docs.docker.com/engine/install/ubuntu/) - Docker
 2. [Install Hasty Paste](https://enchantedcode.co.uk/hasty-paste/install.html) - Hasty Paste
 3. [About Pastebin](https://pastebin.com/) - Pastebin
-</ul>
