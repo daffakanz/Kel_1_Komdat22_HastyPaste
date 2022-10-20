@@ -98,19 +98,22 @@ Cek status deployment
 </ol>
 
 # Maintenance
+<ul>
+<li>
   Untuk melakukan penghapusan paste yang telah expired
-    ```
-    cli cleanup -y --expired
-    ```
+    
+    cli cleanup -y --expired 
+    
   Untuk melakukan penghapusan seluruh paste yang telah melebihi waktu 365 hari
-    ```
+   
     cli cleanup -y --older-than 365
-    ```
 
   Atau menggabungkan penghapusan paste yang telah expired dan melebihi waktu 365 hari
-    ```
+      
     cli cleanup -y --expired --older-than 365
-    ```
+
+</li>
+</ul>
 
 
 # Cara Pemakaian
@@ -135,24 +138,31 @@ Cek status deployment
 # Pembahasan
 <p>kesimpulan fungsi "Judul" atau pendapat[isi disini].</p>
 
-<p style="font-size:14px"> - Kelebihan Hasty Paste :</p>
+<p style="font-size:14px"> Kelebihan Hasty Paste :</p>
 <ul>
 <li>Tidak memerlukan database.</li>
 <li>Memakai jumlah resources yang kecil.</li>
 <li>Tidak memerlukan Auth dan Javascript</li>
 </ul>
 
-<p style="font-size:14px"> - Kekurangan Hasty Paste :</p>
+<p> </p>
+
+<p style="font-size:14px"> Kekurangan Hasty Paste :</p>
+<ul><li> Expired paste tidak terjamin hilang ketika sudah habis waktunya, perlu dihapus secara manual </li></ul>
+<ul><li> Memory yang digunakan akan semakin banyak dimakan ketika expired paste gagal terhapus secara otomatis </li></ul>
+<ul><li> Jika lupa atau ingin mengubah setting Highlight Syntax, maka perlu menambahkan extension tersebut ke belakang URL paste </li></ul>
+ 
+ <p> </p>
+<p style="font-size:14px"> Bandingkan dengan aplikasi weblain yang sejenis :</p>
 <ul>
-<li>tralala4</li>
-</ul>
-  
-<p style="font-size:14px"> - Bandingkan dengan aplikasi weblain yang sejenis :</p>
-<ul>
-<li>tralala5</li>
+Selain itu, Aplikasi WebApps yang mirip dengan Hasty Paste ini adalah (Tolong di Bold)Pastebin. Jika dibandingkan dengan pastebin, Hasty Paste ini memiliki berberapa keunggulan dan kelemahan. Berikut adalah perbandingan antara kedua WebApps ini :
+<ul><li> Pastebin dapat disettings siapa saja yang dapat melihatnya </li></ul>
+<ul><li> Pastebin dapat diberikan password untuk dapat mengamankan file </li></ul>
+<ul><li> File pada Pastebin dapat dirapihkan dalam bentuk folder atau kategori lainnya </li></ul>
+
 </ul>
 
 # Referensi
 <ul>
-<li>link tralala</li>
+tralalala
 </ul>
