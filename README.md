@@ -5,6 +5,7 @@ Repository tugas UTS komdat 2022
 Hasty Paste adalah sebuah WebApp yang berfungsi untuk membuat, mengedit, dan berbagi text/note dengan cepat dan cuma-cuma. Sebagian besar, Hasty Paste digunakan untuk berbagi log debug atau semacamnya untuk membantu kelompok pengembang.
 
 # Instalasi
+[`^ kembali ke atas ^`](#)
 <p style="font-size:14px"><b>Prasyarat Sebelum instalasi</b></p>
 <ol>
 <li>Docker</li>
@@ -96,6 +97,7 @@ Cek status deployment
 </ol>
 
 # Maintenance
+[`^ kembali ke atas ^`](#)
 <ul>
 <li>
   Untuk melakukan penghapusan paste yang telah expired
@@ -117,6 +119,7 @@ Cek status deployment
 
 
 # Cara Pemakaian
+[`^ kembali ke atas ^`](#)
 <ul>
 <li><p>Tampilan aplikasi web</p></li>
 <b>Tampilan pada desktop</b>
@@ -136,6 +139,7 @@ Cek status deployment
 
   
 # Pembahasan
+  [`^ kembali ke atas ^`](#)
 <p>kesimpulan fungsi "Judul" atau pendapat[isi disini].</p>
 
 <p style="font-size:14px"> Kelebihan Hasty Paste :</p>
@@ -163,6 +167,7 @@ Selain itu, Aplikasi WebApps yang mirip dengan Hasty Paste ini adalah <b>Pastebi
 </ul>
 
 # Referensi
+  [`^ kembali ke atas ^`](#)
 <ul>
 <li>https://enchantedcode.co.uk/hasty-paste/index.html</li>
 </ul>
