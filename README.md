@@ -1,4 +1,11 @@
-<h1 align="center">Hasty Paste</h1>
+<h1 align="center">Hasty Paste</h1></p>
+
+![](https://github.com/daffakanz/Kel_1_Komdat22_HastyPaste/blob/main/images/iconhastepaste.svg)
+
+<p></p>
+
+[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Maintenance](#maintenance) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+:---:|:---:|:---:|:---:|:---:|:---:
 
 Repository tugas UTS komdat 2022
 Kelompok 1:
@@ -7,8 +14,8 @@ Kelompok 1:
 3. Fawwaz Hafiz Salsabila (G6401201063)
 4. Daffa Rifqi Kanz (G6401201094)
 
-[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Maintenance](#maintenance) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
-:---:|:---:|:---:|:---:|:---:|:---:
+<p></p>
+<p></p>
 
 # Sekilas Tentang "Hasty Paste"
 [`^ kembali ke atas ^`](#)
