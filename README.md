@@ -117,16 +117,16 @@ Cek status deployment
 
   
 <p style="font-size:25px"><b>Pembahasan</b></p>
-<p>kesimpulan fungsi "Judul".</p>
+<p>kesimpulan fungsi "Judul"[isi disini].</p>
 
-<p style="font-size:14px">Kelebihan Judul :</p>
+<p style="font-size:14px">Kelebihan Hasty Paste :</p>
 <ul>
 <li>Tidak memerlukan database.</li>
 <li>Memakai jumlah resources yang kecil.</li>
 <li>Tidak memerlukan Auth dan Javascript</li>
 </ul>
 
-<p style="font-size:14px">Kekurangan Judul :</p>
+<p style="font-size:14px">Kekurangan Hasty Paste :</p>
 <ul>
 <li>tralala4</li>
 </ul>
