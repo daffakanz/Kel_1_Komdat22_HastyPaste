@@ -1,8 +1,12 @@
 # Komdatcoba
 Repository tugas UTS komdat 2022
 
+[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+:---:|:---:|:---:|:---:|:---:
+
 # Sekilas Tentang "Hasty Paste"
-Hasty Paste adalah sebuah WebApp yang berfungsi untuk membuat, mengedit, dan berbagi text/note dengan cepat dan cuma-cuma. Sebagian besar, Hasty Paste digunakan untuk berbagi log debug atau semacamnya untuk membantu kelompok pengembang.
+[`^ kembali ke atas ^`](#)
+<p>Hasty Paste adalah sebuah WebApp yang berfungsi untuk membuat, mengedit, dan berbagi text/note dengan cepat dan cuma-cuma. Sebagian besar, Hasty Paste digunakan untuk berbagi log debug atau semacamnya untuk membantu kelompok pengembang.</p>
 
 # Instalasi
 [`^ kembali ke atas ^`](#)
@@ -169,5 +173,7 @@ Selain itu, Aplikasi WebApps yang mirip dengan Hasty Paste ini adalah <b>Pastebi
 # Referensi
   [`^ kembali ke atas ^`](#)
 <ul>
-<li>https://enchantedcode.co.uk/hasty-paste/index.html</li>
+1. [Install Docker on Ubuntu](https://docs.docker.com/engine/install/ubuntu/) - Docker
+2. [Install Hasty Paste](https://enchantedcode.co.uk/hasty-paste/install.html) - Hasty Paste
+3. [About Pastebin](https://pastebin.com/) - Pastebin
 </ul>
