@@ -6,7 +6,7 @@ Repository tugas UTS komdat 2022
 <p style="font-size:14px">Sekilas Tentang "Hasty Paste"</p>
 <p>Deskripsi Judul. [Isi disini]</p>
 
-<p style="font-size:25px"><b>Instalasi</b></p>
+# Instalasi
 <p style="font-size:14px"><b>Prasyarat Sebelum instalasi</b></p>
 <ol>
 <li>Docker</li>
