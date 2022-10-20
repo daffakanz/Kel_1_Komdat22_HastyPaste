@@ -1,7 +1,7 @@
 # Komdatcoba
 Repository tugas UTS komdat 2022
 
-<p style="font-size:30px"><b>Hasty Paste</b></p>
+<p style="font-size:100px"><b>Hasty Paste</b></p>
 
 <p style="font-size:14px">Sekilas Tentang "Hasty Paste"</p>
 <p>Deskripsi Judul. [Isi disini]</p>
@@ -9,7 +9,6 @@ Repository tugas UTS komdat 2022
 <p style="font-size:25px"><b>Instalasi</b></p>
 <p style="font-size:14px"><b>Prasyarat Sebelum instalasi</b></p>
 <ol>
-<li>Docker</li>
 <li>Docker</li>
 </ol>
 <b>Langkah instalasi dalam CLI dengan docker</b>
@@ -104,19 +103,19 @@ Cek status deployment
 <b>Tampilan pada desktop</b>
   <p><center><img src="images/tampilandesktop.png" width="500" ></center></p>
 
-<li><p><b>Fungsi-fungsi utama</b></p></li>
-</ul>
-<li>Untuk memulai menulis note, tekan tombol "New Paste"</li>
-<li>Kemudian masukan "Title" "Waktu expiry note", "Syntax Highlight" tidak harus diisi</li>
-<center><img src="images/func1.png" width="500" ></center>
+  <p><b>Fungsi utama</b></p>
+    <li>Untuk memulai menulis note, tekan tombol "New Paste"</li>
+    <li>Kemudian masukan "Title" "Waktu expiry note", "Syntax Highlight" tidak harus diisi</li>
+    <center><img src="images/func1.png" width="500" ></center>
 
-<li>Hasilnya akan seperti ini:</li>
-<center><img src="images/func2.png" width="500" ></center>
-<li>Selanjutnya anda dapat mengunduh note tersebut dengan menekan tombol "Download"</li>
-<li>Anda dapat menekan tombol "Copy Share Link" untuk membagikan note tersebut</li>
-<li>Apabila anda ingin menduplikat dan mengedit notenya dapat menekan tombol "Clone & Edit"</li>
+  Hasilnya akan seperti ini:
+    <center><img src="images/func2.png" width="500" ></center>
+    <li>Selanjutnya anda dapat mengunduh note tersebut dengan menekan tombol "Download"</li>
+    <li>Anda dapat menekan tombol "Copy Share Link" untuk membagikan note tersebut</li>
+    <li>Apabila anda ingin menduplikat dan mengedit notenya dapat menekan tombol "Clone & Edit"</li>
 
 
+  
 <p style="font-size:25px"><b>Pembahasan</b></p>
 <p>kesimpulan fungsi "Judul".</p>
 
