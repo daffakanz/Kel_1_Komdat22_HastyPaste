@@ -1,5 +1,11 @@
-# Komdatcoba
+<h1 align="center">Hasty Paste</h1>
+
 Repository tugas UTS komdat 2022
+Kelompok 1:
+1. Wan Muhammad Fikri Aushaf (G6401201007)
+2. Sandy Reynaldo Yanuarda Haulussy (G6401201026)
+3. Fawwaz Hafiz Salsabila (G6401201063)
+4. Daffa Rifqi Kanz (G6401201094)
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Maintenance](#maintenance) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:
