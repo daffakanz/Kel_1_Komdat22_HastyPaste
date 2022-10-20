@@ -140,7 +140,7 @@ Cek status deployment
   
 # Pembahasan
   [`^ kembali ke atas ^`](#)
-<p>kesimpulan fungsi "Judul" atau pendapat[isi disini].</p>
+<p>Hasty paste (paste secara cepat), sesuai dengan namanya merupakan aplikasi web sederhana yang memungkinakan kita untuk menyimpan dan membagikan baris-baris code maupun baris-baris kata dengan membuat flat-file pada web tanpa menggunakan database serta autentikasi.</p>
 
 <p style="font-size:14px"> Kelebihan Hasty Paste :</p>
 <ul>
